@@ -14,3 +14,4 @@ spring:
 order_service: 
   #url: http://127.0.0.1:8000/order-service/%s/orders
   url: http://ORDER-SERVICE/order-service/%s/orders # ip주소 + port 대신 microservice application id
+  exception_orders_is_empty: User's Order is empty2
